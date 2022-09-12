@@ -1,4 +1,4 @@
-package `01-ProgEstructurada`
+package `01-ProgEstructuradaModular`
 
 /**
  * Es una estructura de datos donde se accede por indice

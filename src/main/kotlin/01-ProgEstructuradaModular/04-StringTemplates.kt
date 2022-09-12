@@ -1,4 +1,4 @@
-package `01-ProgEstructurada`
+package `01-ProgEstructuradaModular`
 
 /**
  * Nos permite manejar cadenass de una forma mas simple

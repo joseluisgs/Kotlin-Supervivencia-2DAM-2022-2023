@@ -1,4 +1,4 @@
-package `01-ProgEstructurada`
+package `01-ProgEstructuradaModular`
 
 /**
  * Los rangos y progresiones nos permiten operar con secuencias de números.

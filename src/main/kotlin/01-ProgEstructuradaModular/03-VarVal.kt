@@ -1,4 +1,4 @@
-package `01-ProgEstructurada`
+package `01-ProgEstructuradaModular`
 
 /*
 var se puede cambiar su valor: lectura y escritura

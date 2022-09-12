@@ -1,4 +1,4 @@
-package `01-ProgEstructurada`
+package `01-ProgEstructuradaModular`
 
 /*
 En ciencias de la computación, un tipo de dato informático o simplemente tipo,
