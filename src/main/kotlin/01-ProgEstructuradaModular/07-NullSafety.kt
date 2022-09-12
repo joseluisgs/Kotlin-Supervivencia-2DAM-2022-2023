@@ -1,6 +1,6 @@
 package `01-ProgEstructuradaModular`
 
-import java.MiClase
+import mijava.MiClase
 
 /**
  * En kotlin debemos especificar si una variable es nula o no

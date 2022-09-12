@@ -1,4 +1,4 @@
-package java;
+package mijava;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
