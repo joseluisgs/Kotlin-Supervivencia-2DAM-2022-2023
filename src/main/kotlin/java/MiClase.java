@@ -23,4 +23,12 @@ public class MiClase {
         return "Hello";
     }
 
+    public void printString(@NotNull String string) {
+        System.out.println(string);
+    }
+
+    public void throwException() throws Exception {
+        throw new Exception("Error");
+    }
+
 }

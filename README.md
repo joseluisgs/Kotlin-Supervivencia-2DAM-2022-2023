@@ -16,7 +16,7 @@ Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
     - [¿Un café?](#un-café)
   - [Licencia de uso](#licencia-de-uso)
 
-## 1. Programación Estructurada y Modular.
+## 1. Programación Estructurada y Modular
 Este bootcamp tiene como objetivo acercarnos a nuestros primeros pasos con Kotlin. Conoceremos los tipos de datos básicos, la nulabilidad, entradas y salidas por consola, funciones, estructuras de control y arrays.
 
 
