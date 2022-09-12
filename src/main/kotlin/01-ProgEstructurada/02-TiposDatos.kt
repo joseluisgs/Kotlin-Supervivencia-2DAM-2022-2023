@@ -11,7 +11,10 @@ https://kotlinlang.org/docs/basic-types.html
  */
 
 fun main() {
+<<<<<<< HEAD
     // Tipos de datos
+=======
+>>>>>>> 01-ProgEstructurada
     val entero: Int = 10
     val edad = 23
     val byte: Byte = 127
@@ -21,6 +24,7 @@ fun main() {
     val texto: String = "Hola mundo"
     val booleano: Boolean = true
     val caracter: Char = 'a'
+<<<<<<< HEAD
 
     println("Entero: $entero")
 
@@ -29,4 +33,6 @@ fun main() {
     val castingEntero = decimal.toInt()
 
 
+=======
+>>>>>>> 01-ProgEstructurada
 }
