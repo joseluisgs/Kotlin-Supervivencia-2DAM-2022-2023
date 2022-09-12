@@ -4,7 +4,7 @@ Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
 
 [![Kotlin](https://img.shields.io/badge/Code-Kotlin-blueviolet)](https://kotlinlang.org/)
 [![LICENSE](https://img.shields.io/badge/Lisence-CC-%23e64545)](https://joseluisgs.github.io/docs/license/)
-![GitHub](https://github.com/joseluisgs/Kotlin-Supervivencia-2DAM-2022-2023)
+![GitHub](https://img.shields.io/github/last-commit/joseluisgs/Kotlin-Supervivencia-2DAM-2022-2023)
 ![imagen](https://repository-images.githubusercontent.com/3432266/7e79bf80-7aa6-11eb-9cbd-d7bda7eaf1aa)
 
 - [Kotlin Supervivencia para 2 DAM](#kotlin-supervivencia-para-2-dam)
@@ -17,7 +17,7 @@ Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
   - [Licencia de uso](#licencia-de-uso)
 
 ## 1. Programación Estructurada y Modular.
-Este bootcamp tiene como objetivo acercarnos a nuestros primeros pasos con Kotlin. Conoceremos los tipos de datos básicos, la nulabilidad, entradas y salidas por consola, estructuras de control y arrays.
+Este bootcamp tiene como objetivo acercarnos a nuestros primeros pasos con Kotlin. Conoceremos los tipos de datos básicos, la nulabilidad, entradas y salidas por consola, funciones, estructuras de control y arrays.
 
 
 
