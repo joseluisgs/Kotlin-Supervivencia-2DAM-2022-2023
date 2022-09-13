@@ -10,7 +10,7 @@ import kotlin.properties.Delegates
  * Observable es cuando queremos que una propiedad se actualice cuando otra cambia realizamos una acciḉon
  * https://kotlinlang.org/docs/delegated-properties.html#observable-properties
  *
- * Vetoable cuando se actualiza una propiedad ejecuta una acción
+ * Vetoable cuando se actualiza una propiedad ejecuta una acción y podemos acotar el valor que se le asigna
  *
  * https://medium.com/backyard-programmers/kotlin-standard-delegates-lazy-observable-and-vetoable-761a82b74e57
  */
@@ -20,6 +20,8 @@ class Delegate {
         println("Ahora es cuando me creo que soy Lazy")
         "Hello"
     }
+
+    // Patron observer!!
     var observableValue: String by Delegates.observable("Hello") { _, old, new ->
         println("Se cambio $old -> $new")
     }
