@@ -10,7 +10,7 @@ import kotlin.reflect.full.memberProperties
  * https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.reflect/
  */
 
-class UnaClase(val nombre: String, var edad: Int) {
+data class UnaClase(val nombre: String, var edad: Int) {
     fun unMetodo() {
         println("Hola Mundo, tengo $edad años y te llamas $nombre")
     }
