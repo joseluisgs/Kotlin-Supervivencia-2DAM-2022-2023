@@ -16,16 +16,22 @@ fun main() {
     println(parametros("Pepe", 23, true))
 
     // Parametros nombrados
-    println(parametros(edad = 25, repetidor = false, nombre = "Pedro"))
+    println(parametros(nombre = "Pedro", edad = 25, repetidor = false))
 
     // Numero variable de parámetros
     println(calificacion("Pepe", 7.0))
     println(calificacion("Pepe", 7.0, 8.5))
     println(calificacion("Pepe", 7.0, 8.5, 9.0))
     var notas = DoubleArray(10)
+
+    // con * indicamos que desempaquetamos el array en elementos
+    // spread operator
+    //https://kotlinlang.org/docs/functions.html#variable-number-of-arguments-varargs
     println(calificacion("Pepe", *notas))
 
-    val (a, b) = notas
+    val (a, b) = notas // Desestructuración de datos, primer y segundo elemento
+
+    val (c, _, _, f) = notas // Desestructuración de datos, primer y cuarto
 
 }
 

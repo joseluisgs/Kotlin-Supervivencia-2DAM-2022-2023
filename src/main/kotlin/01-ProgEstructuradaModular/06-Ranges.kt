@@ -6,6 +6,7 @@ package `01-ProgEstructuradaModular`
  */
 
 fun main() {
+
     // Rango de enteros entre 1 y 10
     val rango1 = 1..10
     // Rango de enteros entre 1 y 10 con paso 2

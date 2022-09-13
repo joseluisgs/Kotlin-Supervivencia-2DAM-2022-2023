@@ -19,6 +19,7 @@ fun main() {
     // No tenemos operador ternario no lo necesitamos, if es una expresion
     val salida = if (num % 2 == 0) "Es par" else "Es impar"
     println(salida)
+    println(if (num % 2 == 0) "Es par" else "Es impar")
 
 
     // When, nos permte hacer varias comprobaciones
@@ -33,6 +34,7 @@ fun main() {
 
     // When tambiene es una expresion
     val salida2 = when {
+        num == 1 -> "num == 1"
         num % 2 == 0 -> "Es par"
         num < 0 -> "Es negativo"
         num is Int -> "Es Entero"
@@ -113,5 +115,10 @@ fun main() {
     // O no usar un for, si no un repeat para opciones repetidas
     repeat(10) {
         println("Hola")
+    }
+
+    var string = "Hola"
+    for (i in string.withIndex()) {
+        println("Posición ${i.index} está el carácter ${i.value}")
     }
 }

@@ -39,6 +39,11 @@ fun main() {
     // si el valor es nulo
     println(otroString!!.length)
 
+    // Entonces tenemos
+    println(otroString?.length) // Llamada segura
+    println(otroString.length ?: "No se ha especificado") // Operador elvis
+    println(otroString!!.length) // Operador de aserción no nulo
+
     // Plataform types (!)
     // En Kotlin tenemos los tipos de datos de plataforma, que son los tipos de datos
     // que se usan en Java, por ejemplo String, Int, etc

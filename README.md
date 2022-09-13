@@ -3,29 +3,32 @@
 Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
 
 [![Kotlin](https://img.shields.io/badge/Code-Kotlin-blueviolet)](https://kotlinlang.org/)
-[![LICENSE](https://img.shields.io/badge/Lisence-CC-%23e64545)](https://joseluisgs.github.io/docs/license/)
+[![LICENSE](https://img.shields.io/badge/Licence-CC-%23e64545)](https://joseluisgs.github.io/docs/license/)
 ![GitHub](https://img.shields.io/github/last-commit/joseluisgs/Kotlin-Supervivencia-2DAM-2022-2023)
 ![imagen](https://repository-images.githubusercontent.com/3432266/7e79bf80-7aa6-11eb-9cbd-d7bda7eaf1aa)
 
 - [Kotlin Supervivencia para 2 DAM](#kotlin-supervivencia-para-2-dam)
-  - [1. Programación Estructurada y Modular.](#1-programación-estructurada-y-modular)
-  - [Documentación](#documentación)
-  - [DAMnificad@s](#damnificads)
-  - [Autor](#autor)
-    - [Contacto](#contacto)
-    - [¿Un café?](#un-café)
-  - [Licencia de uso](#licencia-de-uso)
+    - [1. Programación Estructurada y Modular.](#1-programación-estructurada-y-modular)
+    - [Documentación](#documentación)
+    - [DAMnificad@s](#damnificads)
+    - [Autor](#autor)
+        - [Contacto](#contacto)
+        - [¿Un café?](#un-café)
+    - [Licencia de uso](#licencia-de-uso)
 
 ## 1. Programación Estructurada y Modular
-Este bootcamp tiene como objetivo acercarnos a nuestros primeros pasos con Kotlin. Conoceremos los tipos de datos básicos, la nulabilidad, entradas y salidas por consola, funciones, estructuras de control y arrays.
 
-
+Este bootcamp tiene como objetivo acercarnos a nuestros primeros pasos con Kotlin. Conoceremos los tipos de datos
+básicos, la nulabilidad, entradas y salidas por consola, funciones, estructuras de control y arrays.
 
 ## Documentación
+
 - [Documentación de Kotlin](https://kotlinlang.org/docs/home.html)
 
 ## DAMnificad@s
-Es una comunidad de estudiantes y desarrolladores de DAM y DAW con el objetivo de ayudarse, aprender juntos y compartir su pasión por el aprendizaje del desarrollo software.
+
+Es una comunidad de estudiantes y desarrolladores de DAM y DAW con el objetivo de ayudarse, aprender juntos y compartir
+su pasión por el aprendizaje del desarrollo software.
 
 Puedes encontrarnos en Discord [DAMnificad@s](https://discord.gg/HWf9f4gc)
 
@@ -33,7 +36,7 @@ Puedes encontrarnos en Discord [DAMnificad@s](https://discord.gg/HWf9f4gc)
 
 ## Autor
 
-Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twitter.com/joseluisgonsan). 
+Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twitter.com/joseluisgonsan).
 
 [![Twitter](https://img.shields.io/twitter/follow/joseluisgonsan?style=social)](https://twitter.com/joseluisgonsan)
 [![GitHub](https://img.shields.io/github/followers/joseluisgs?style=social)](https://github.com/joseluisgs)
@@ -47,6 +50,7 @@ Partner de Formación Kotlin certificado por JetBrains.
   </a> &nbsp;
 
 ### Contacto
+
 <p>
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 </p>
@@ -78,10 +82,20 @@ Partner de Formación Kotlin certificado por JetBrains.
 </p>
 
 ### ¿Un café?
+
 <p><a href="https://www.buymeacoffee.com/joseluisgs"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" height="48" alt="joseluisgs" /></a></p><br><br><br>
 
 ## Licencia de uso
 
-Este repositorio y todo su contenido está licenciado bajo licencia **Creative Commons**, si desea saber más, vea la [LICENSE](https://joseluisgs.github.io/docs/license/). Por favor si compartes, usas o modificas este proyecto cita a su autor, y usa las mismas condiciones para su uso docente, formativo o educativo y no comercial.
+Este repositorio y todo su contenido está licenciado bajo licencia **Creative Commons**, si desea saber más, vea
+la [LICENSE](https://joseluisgs.github.io/docs/license/). Por favor si compartes, usas o modificas este proyecto cita a
+su autor, y usa las mismas condiciones para su uso docente, formativo o educativo y no comercial.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">JoseLuisGS</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://joseluisgs.github.io/" property="cc:attributionName" rel="cc:attributionURL">José Luis González Sánchez</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional License</a>.<br />Creado a partir de la obra en <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/joseluisgs" rel="dct:source">https://github.com/joseluisgs</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">
+JoseLuisGS</span>
+by <a xmlns:cc="http://creativecommons.org/ns#" href="https://joseluisgs.github.io/" property="cc:attributionName" rel="cc:attributionURL">
+José Luis González Sánchez</a> is licensed under
+a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional License</a>.<br />Creado a partir de la obra
+en <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/joseluisgs" rel="dct:source">https://github.com/joseluisgs</a>
+.

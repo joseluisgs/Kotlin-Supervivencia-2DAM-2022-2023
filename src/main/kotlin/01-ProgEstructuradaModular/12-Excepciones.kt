@@ -9,6 +9,7 @@ import java.io.IOException
  * Es por ello que debemos capturar lo que consideremos necesario
  * o para informar a Java usar la anotacion @Throws
  * https://kotlinlang.org/docs/exceptions.html
+ * https://rollbar.com/blog/how-to-handle-checked-unchecked-exceptions-in-java/#:~:text=Difference%20Between%20Checked%20and%20Unchecked%20Exceptions%20in%20Java,-To%20summarize%2C%20the&text=unchecked%20exception%20is%3A-,A%20checked%20exception%20is%20caught%20at%20compile%20time%20whereas%20a,t%20required%20to%20be%20handled.
  */
 
 fun main() {
