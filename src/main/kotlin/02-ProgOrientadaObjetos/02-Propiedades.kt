@@ -4,7 +4,7 @@ package `02-ProgOrientadaObjetos`
  * En Kotlin, las propieades puede ser declaradas con var o val (var = variable, val = valor)
  * Si es var, tenemos el getter y el setter
  * Si es val, solo tenemos el getter
- * Por defecto son públicas, si no queremos que se acceda a ellas, podemos declararlas como privadas
+ * Por defecto son públicas, si no queremos que se acceda a ellas, podemos declararlas como private, internal o protected
  * Se pueden personalizar getter y setter
  * https://kotlinlang.org/docs/properties.html
  */

@@ -2,6 +2,7 @@ package `02-ProgOrientadaObjetos`
 
 /**
  * La herencia nos permite crear nuevas clases a partir de otras ya existentes.
+ * LA HERENCIA ES SIMPLE
  * En Kotlin las clases por defecto son cerradas, por lo que si queremos que una clase pueda ser heredada
  * debemos indicarlo con la palabra reservada open.
  * Igual para métodos y propiedades que quieran ser sobrescritos
