@@ -38,9 +38,25 @@ class MiClase : IA, IB, IC {
     override fun b() = "b"
 }
 
+// Herencia e interfaces, se puede heredar de una clase y de una interfaz
+open class Ejemplo01(val edad: Int) : IA, IB {
+    override fun a() = "a"
+    override fun b() = "b"
+}
+
+class Ejemplo02(override val name: String, edad: Int) : Ejemplo01(edad), IMagic {
+    override fun a() = super<IMagic>.a()
+    override fun b() = "patata"
+}
+
 fun main() {
     val miClase = MiClase()
     println(miClase.a())
     println(miClase.b())
     println(miClase.name)
+
+    val ejemplo02 = Ejemplo02("Ejemplo02", 10)
+    println(ejemplo02.a())
+    println(ejemplo02.b())
+    println(ejemplo02.name)
 }
