@@ -1,4 +1,4 @@
-# Kotlin Supervivencia para 2 DAM
+# Kotlin Supervivencia para 2º DAM
 
 Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
 
@@ -7,7 +7,7 @@ Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
 ![GitHub](https://img.shields.io/github/last-commit/joseluisgs/Kotlin-Supervivencia-2DAM-2022-2023)
 ![imagen](https://repository-images.githubusercontent.com/3432266/7e79bf80-7aa6-11eb-9cbd-d7bda7eaf1aa)
 
-- [Kotlin Supervivencia para 2 DAM](#kotlin-supervivencia-para-2-dam)
+- [Kotlin Supervivencia para 2º DAM](#kotlin-supervivencia-para-2º-dam)
   - [1. Programación Estructurada y Modular](#1-programación-estructurada-y-modular)
   - [2. Programación Orientada a Objetos](#2-programación-orientada-a-objetos)
   - [Documentación](#documentación)
