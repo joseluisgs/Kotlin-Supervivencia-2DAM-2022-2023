@@ -3,7 +3,7 @@
 Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
 
 [![Kotlin](https://img.shields.io/badge/Code-Kotlin-blueviolet)](https://kotlinlang.org/)
-[![LICENSE](https://img.shields.io/badge/Licence-CC-%23e64545)](https://joseluisgs.github.io/docs/license/)
+[![LICENSE](https://img.shields.io/badge/License-CC-%23e64545)](https://joseluisgs.github.io/docs/license/)
 ![GitHub](https://img.shields.io/github/last-commit/joseluisgs/Kotlin-Supervivencia-2DAM-2022-2023)
 ![imagen](https://repository-images.githubusercontent.com/3432266/7e79bf80-7aa6-11eb-9cbd-d7bda7eaf1aa)
 
