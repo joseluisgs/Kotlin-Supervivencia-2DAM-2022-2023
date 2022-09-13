@@ -8,6 +8,8 @@ import kotlin.reflect.full.memberProperties
  * Reflexion en Kotlin es la capacidad de analizar una clase en tiempo de ejecución
  * https://kotlinlang.org/docs/reflection.html
  * https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.reflect/
+ * https://www.geeksforgeeks.org/kotlin-reflection/
+ * https://www.baeldung.com/kotlin/reflection
  */
 
 data class UnaClase(val nombre: String, var edad: Int) {
