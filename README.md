@@ -1,14 +1,15 @@
-# Kotlin Supervivencia para 2 DAM
+# Kotlin Supervivencia para 2º DAM
 
 Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
 
 [![Kotlin](https://img.shields.io/badge/Code-Kotlin-blueviolet)](https://kotlinlang.org/)
-[![LICENSE](https://img.shields.io/badge/Licence-CC-%23e64545)](https://joseluisgs.github.io/docs/license/)
+[![LICENSE](https://img.shields.io/badge/License-CC-%23e64545)](https://joseluisgs.github.io/docs/license/)
 ![GitHub](https://img.shields.io/github/last-commit/joseluisgs/Kotlin-Supervivencia-2DAM-2022-2023)
 ![imagen](https://repository-images.githubusercontent.com/3432266/7e79bf80-7aa6-11eb-9cbd-d7bda7eaf1aa)
 
-- [Kotlin Supervivencia para 2 DAM](#kotlin-supervivencia-para-2-dam)
-    - [1. Programación Estructurada y Modular.](#1-programación-estructurada-y-modular)
+- [Kotlin Supervivencia para 2º DAM](#kotlin-supervivencia-para-2º-dam)
+    - [1. Programación Estructurada y Modular](#1-programación-estructurada-y-modular)
+    - [2. Programación Orientada a Objetos](#2-programación-orientada-a-objetos)
     - [Documentación](#documentación)
     - [DAMnificad@s](#damnificads)
     - [Autor](#autor)
@@ -20,6 +21,12 @@ Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
 
 Este bootcamp tiene como objetivo acercarnos a nuestros primeros pasos con Kotlin. Conoceremos los tipos de datos
 básicos, la nulabilidad, entradas y salidas por consola, funciones, estructuras de control y arrays.
+
+## 2. Programación Orientada a Objetos
+
+En este apartado veremos los conceptos básicos de la programación orientada a objetos en Kotlin. Conoceremos como crear
+clases, propiedades, visibilidad, objetos, herencia, interfaces, polimorfismo, etc. Además de elementos más avanzados
+como la delegación, enums, sealed, o reflexión, etc.
 
 ## Documentación
 

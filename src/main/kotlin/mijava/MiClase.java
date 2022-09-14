@@ -3,7 +3,11 @@ package mijava;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
+
 public class MiClase {
+
+    public List<String> lista = List.of("uno", "dos", "tres");
 
     public String getStringNullable() {
         return null;
@@ -12,7 +16,6 @@ public class MiClase {
     public String getStringNotNull() {
         return "Hello";
     }
-
 
     @Nullable // Puede devolverme un nulo
     public String getStringNullableWithNotation() {
