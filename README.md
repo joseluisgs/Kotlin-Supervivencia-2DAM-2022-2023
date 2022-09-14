@@ -8,14 +8,15 @@ Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
 ![imagen](https://repository-images.githubusercontent.com/3432266/7e79bf80-7aa6-11eb-9cbd-d7bda7eaf1aa)
 
 - [Kotlin Supervivencia para 2º DAM](#kotlin-supervivencia-para-2º-dam)
-    - [1. Programación Estructurada y Modular](#1-programación-estructurada-y-modular)
-    - [2. Programación Orientada a Objetos](#2-programación-orientada-a-objetos)
-    - [Documentación](#documentación)
-    - [DAMnificad@s](#damnificads)
-    - [Autor](#autor)
-        - [Contacto](#contacto)
-        - [¿Un café?](#un-café)
-    - [Licencia de uso](#licencia-de-uso)
+  - [1. Programación Estructurada y Modular](#1-programación-estructurada-y-modular)
+  - [2. Programación Orientada a Objetos](#2-programación-orientada-a-objetos)
+  - [3. Programación Funcional](#3-programación-funcional)
+  - [Documentación](#documentación)
+  - [DAMnificad@s](#damnificads)
+  - [Autor](#autor)
+    - [Contacto](#contacto)
+    - [¿Un café?](#un-café)
+  - [Licencia de uso](#licencia-de-uso)
 
 ## 1. Programación Estructurada y Modular
 
@@ -27,6 +28,9 @@ básicos, la nulabilidad, entradas y salidas por consola, funciones, estructuras
 En este apartado veremos los conceptos básicos de la programación orientada a objetos en Kotlin. Conoceremos como crear
 clases, propiedades, visibilidad, objetos, herencia, interfaces, polimorfismo, etc. Además de elementos más avanzados
 como la delegación, enums, sealed, o reflexión, etc.
+
+## 3. Programación Funcional
+Aprenderemos a manejar un nuevo paradigma, donde la función es un tipo de dato más. Conoceremos las funciones de orden superior, lambdas, funciones de extensión, sobrecarga de operadores, labdas con receptor o las scope functions entre otras cosas.
 
 ## Documentación
 
