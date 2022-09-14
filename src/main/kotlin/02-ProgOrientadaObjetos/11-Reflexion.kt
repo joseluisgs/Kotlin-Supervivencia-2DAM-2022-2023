@@ -3,6 +3,7 @@ package `02-ProgOrientadaObjetos`
 import kotlin.reflect.KMutableProperty
 import kotlin.reflect.full.memberFunctions
 import kotlin.reflect.full.memberProperties
+import kotlin.reflect.jvm.isAccessible
 
 /**
  * Reflexion en Kotlin es la capacidad de analizar una clase en tiempo de ejecución
@@ -13,6 +14,8 @@ import kotlin.reflect.full.memberProperties
  */
 
 data class UnaClase(val nombre: String, var edad: Int) {
+    private var propidadPrivada: String = "propiedad privada"
+
     fun unMetodo() {
         println("Hola Mundo, tengo $edad años y te llamas $nombre")
     }
@@ -20,6 +23,10 @@ data class UnaClase(val nombre: String, var edad: Int) {
     fun otroMetodo(valor: Int) {
         edad += valor
         return unMetodo()
+    }
+
+    private fun metodoPrivado() {
+        println("Hola Soy privado y esta es mi variable $propidadPrivada")
     }
 }
 
@@ -35,8 +42,10 @@ fun main() {
 
     val unMetodo = clase.members.find { it.name == "unMetodo" }
     unMetodo?.call(unaClase)
+    // unaClase.unMetodo()
     val otroMetodo = clase.members.find { it.name == "otroMetodo" }
     println(otroMetodo?.call(unaClase, 10))
+    //unaClase.otroMetodo(10)
 
     val unaPropiedad = clase.members.find { it.name == "edad" } as KMutableProperty<*>
     // getter
@@ -74,4 +83,15 @@ fun main() {
     println(otraForma)
     val otraInstancia = otraForma.call("Maria", 40)
     println(otraInstancia)
+
+    // Privados
+    val metodoPrivado = clase.members.find { it.name == "metodoPrivado" }
+        ?.apply { isAccessible = true }
+    metodoPrivado?.call(unaClase)
+
+    val propidadPrivada = clase.members.find { it.name == "propidadPrivada" }
+        ?.apply { isAccessible = true } as KMutableProperty<*>
+    propidadPrivada.setter.call(unaClase, "cambiando valor")
+    metodoPrivado?.call(unaClase)
+
 }
