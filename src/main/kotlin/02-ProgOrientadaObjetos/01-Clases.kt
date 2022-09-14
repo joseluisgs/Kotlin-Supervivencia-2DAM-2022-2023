@@ -71,4 +71,7 @@ fun main() {
     val animal4 = Animal4("Gato", 3, true)
     val animal5 = Animal5("Perro")
     val animal6 = Animal5("Gato", animal5)
+    println(animal6.nombre)
+    // animal6.nombre = "Gato2"  // no tienes el set porque es val
+
 }

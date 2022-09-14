@@ -8,6 +8,7 @@ package `02-ProgOrientadaObjetos`
 
 typealias MyInt = Int
 typealias Matrix = Array<IntArray>
+typealias Columna = IntArray
 typealias NoRepetidos = Set<Int>
 
 fun main() {

@@ -63,7 +63,7 @@ class Motocicleta(val marca: String) {
     // Prueba a comentar esto y ejecutar
     init {
         println("Se ha creado una motocicleta de la marca $marca")
-        color = listOf("rojo", "azul", "verde").random()
+        //color = listOf("rojo", "azul", "verde").random()
     }
 
     fun inicializarColor(color: String) {

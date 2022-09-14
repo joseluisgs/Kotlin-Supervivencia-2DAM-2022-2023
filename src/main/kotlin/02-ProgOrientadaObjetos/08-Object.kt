@@ -8,7 +8,7 @@ package `02-ProgOrientadaObjetos`
  * Es decir, métodos y atributos de clase
  * https://kotlinlang.org/docs/object-declarations.html#companion-objects
  *
- * También puede ser usado como Object
+ * También puede ser usado como Object --- Singleton!!
  * https://kotlinlang.org/docs/object-declarations.html#object-declarations-overview
  */
 

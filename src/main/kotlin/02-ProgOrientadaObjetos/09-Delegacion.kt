@@ -28,7 +28,7 @@ class Delegate {
 
     var vetoableValue: Int by Delegates.vetoable(0) { _, old, new ->
         println("Se cambio el valor de la propiedad de $old a $new")
-        new in 0..10 // no cambia otro valor que no sea el indicado
+        new in 1..10
     }
 }
 

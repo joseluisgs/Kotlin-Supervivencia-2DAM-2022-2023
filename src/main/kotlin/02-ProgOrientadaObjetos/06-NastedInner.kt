@@ -10,6 +10,7 @@ package `02-ProgOrientadaObjetos`
 
 class Outer {
     private val bar: Int = 1
+    var v = "Fuera de la clase"
 
     class Nested {
         fun foo() = 2
