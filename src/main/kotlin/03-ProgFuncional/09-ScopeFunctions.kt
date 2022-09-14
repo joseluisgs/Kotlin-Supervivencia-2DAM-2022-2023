@@ -6,9 +6,31 @@ import java.util.*
  y varían si el propio objeto es el receptor del mismo
  Es una combinación de todo lo visto
  https://kotlinlang.org/docs/scope-functions.html
+ son run, let, with, apply y also
                         */
 
 // no hay una regla para ellas y a veces depende del gusto del programador
+
+// Por ejemplo voy a definir mi propia apply
+fun <T> T.apply2(block: T.() -> Unit): T {
+    block()
+    return this
+}
+
+// Por ejemplo voy a definir mi propia run
+fun <T, R> T.run2(block: T.() -> R): R {
+    return block()
+}
+
+// Por ejemplo voy a definir mi propia with
+fun <T, R> with2(receiver: T, block: T.() -> R): R {
+    return receiver.block()
+}
+
+// Mi propia let
+fun <T, R> T.let2(block: (T) -> R): R {
+    return block(this)
+}
 
 data class Persona(
     var nombre: String = "",
