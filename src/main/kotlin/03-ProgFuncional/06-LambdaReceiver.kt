@@ -39,7 +39,7 @@ fun buildString(actions: StringBuilder.() -> Unit): String {
 // Making a DSL
 class HTML {
     fun body() {
-
+        println("body")
     }
 }
 
@@ -61,7 +61,12 @@ fun main() {
     println(10.opp { plus(10) })
     println(10.opp { this * 2 })
 
-    // Safe Builders
+
+    html {       // lambda with receiver comienza
+        body()   // llamamos a métodos del objeto que recivimos
+    }
+
+    // Safe Builder String con lambdas con receptor,
     val str = buildString {
         append("Hello, ".uppercase())
         append("World!")
