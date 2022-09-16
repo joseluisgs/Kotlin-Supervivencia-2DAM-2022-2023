@@ -1,5 +1,11 @@
 package `03-ProgFuncional`
 
+/*
+Usamos un lambda con reciver porque
+De esta manera conseguimos que en el cuerpo de la lambda
+podamos acceder a las propiedades y métodos del objeto receptor.
+*/
+
 data class Course(val name: String, val students: List<Student>)
 data class Student(val name: String)
 

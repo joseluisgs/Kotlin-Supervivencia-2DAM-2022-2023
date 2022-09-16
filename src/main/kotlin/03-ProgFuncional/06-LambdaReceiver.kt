@@ -9,7 +9,9 @@ https://kotlinlang.org/docs/lambdas.html#function-literals-with-receiver
 MyX.()->Unit  == (MyX)->Unit
 
 Dentro del cuerpo de la función literal, el objeto receptor pasado a la llamada
-se convierte en un implícito this
+se convierte en un implícito this.
+De esta manera conseguimos que en el cuerpo de la lambda
+podamos acceder a las propiedades y métodos del objeto receptor.
 
 Nos sirve para extender funciones de una clase y aplicar una funcion a cada una de las funciones de la clase
 con ello podemos hacer safebuilders o DSL
