@@ -1,10 +1,12 @@
 package `03-ProgFuncional`
 
 /*
-Labda con Rceiver es una mezcla de Lambda Funciones de extensión
+Lambda con Rceiver es una mezcla de Lambda Funciones de extensión
 Las lambdas con receptores son básicamente iguales a las funciones de extensión,
 solo se pueden almacenar en propiedades y pasar a las funciones.
 https://kotlinlang.org/docs/lambdas.html#function-literals-with-receiver
+
+MyX.()->Unit  == (MyX)->Unit
 
 Dentro del cuerpo de la función literal, el objeto receptor pasado a la llamada
 se convierte en un implícito this
@@ -70,6 +72,7 @@ fun main() {
     val str = buildString {
         append("Hello, ".uppercase())
         append("World!")
+        delete(0, 6)
     }
     println(str)
     /**
@@ -84,4 +87,5 @@ fun main() {
      * podría llamarla varias veces, en varias instancias de StringBuilder,
      * almacenarla para su uso posterior, etc.
      */
+
 }
