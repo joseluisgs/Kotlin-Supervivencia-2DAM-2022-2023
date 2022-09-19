@@ -1,6 +1,9 @@
 package `04-Ficheros`
 
 import java.io.File
+import kotlin.io.path.Path
+import kotlin.io.path.getAttribute
+import kotlin.io.path.getOwner
 
 fun main(args: Array<String>) {
     // Si el argumento es 0 es este directorio, si no es otro
@@ -24,6 +27,8 @@ fun main(args: Array<String>) {
                         "${if (file.canWrite()) "w" else "-"} " +
                         "${if (file.canExecute()) "x" else "-"} " +
                         "${if (file.isDirectory) "d" else "-"} / " +
+                        Path(file.absolutePath).getAttribute("unix:permissions") + " / " +
+                        Path(file.absolutePath).getOwner() + " / " +
                         file.absolutePath
             )
         }

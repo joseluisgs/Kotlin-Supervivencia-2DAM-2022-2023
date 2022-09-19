@@ -8,16 +8,16 @@ Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
 ![imagen](https://repository-images.githubusercontent.com/3432266/7e79bf80-7aa6-11eb-9cbd-d7bda7eaf1aa)
 
 - [Kotlin Supervivencia para 2º DAM](#kotlin-supervivencia-para-2º-dam)
-  - [1. Programación Estructurada y Modular](#1-programación-estructurada-y-modular)
-  - [2. Programación Orientada a Objetos](#2-programación-orientada-a-objetos)
-  - [3. Programación Funcional](#3-programación-funcional)
-  - [4. Ficheros](#4-ficheros)
-  - [Documentación](#documentación)
-  - [DAMnificad@s](#damnificads)
-  - [Autor](#autor)
-    - [Contacto](#contacto)
-    - [¿Un café?](#un-café)
-  - [Licencia de uso](#licencia-de-uso)
+    - [1. Programación Estructurada y Modular](#1-programación-estructurada-y-modular)
+    - [2. Programación Orientada a Objetos](#2-programación-orientada-a-objetos)
+    - [3. Programación Funcional](#3-programación-funcional)
+    - [4. Ficheros](#4-ficheros)
+    - [Documentación](#documentación)
+    - [DAMnificad@s](#damnificads)
+    - [Autor](#autor)
+        - [Contacto](#contacto)
+        - [¿Un café?](#un-café)
+    - [Licencia de uso](#licencia-de-uso)
 
 ## 1. Programación Estructurada y Modular
 
@@ -31,10 +31,15 @@ clases, propiedades, visibilidad, objetos, herencia, interfaces, polimorfismo, e
 como la delegación, enums, sealed, o reflexión, etc.
 
 ## 3. Programación Funcional
-Aprenderemos a manejar un nuevo paradigma, donde la función es un tipo de dato más. Conoceremos las funciones de orden superior, lambdas, funciones de extensión, sobrecarga de operadores, labdas con receptor o las scope functions entre otras cosas.
+
+Aprenderemos a manejar un nuevo paradigma, donde la función es un tipo de dato más. Conoceremos las funciones de orden
+superior, lambdas, funciones de extensión, sobrecarga de operadores, labdas con receptor o las scope functions entre
+otras cosas.
 
 ## 4. Ficheros
-En este apartado veremos como trabajar con ficheros en Kotlin. Conoceremos como leer y escribir ficheros de texto y binarios.
+
+En este apartado veremos como trabajar con ficheros en Kotlin. Conoceremos como leer y escribir ficheros de texto y
+binarios. También veremos como trabajar con ficheros de propiedades, CSV, JSON y XML.
 
 ## Documentación
 
