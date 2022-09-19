@@ -11,6 +11,7 @@ Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
   - [1. Programación Estructurada y Modular](#1-programación-estructurada-y-modular)
   - [2. Programación Orientada a Objetos](#2-programación-orientada-a-objetos)
   - [3. Programación Funcional](#3-programación-funcional)
+  - [4. Ficheros](#4-ficheros)
   - [Documentación](#documentación)
   - [DAMnificad@s](#damnificads)
   - [Autor](#autor)
@@ -31,6 +32,9 @@ como la delegación, enums, sealed, o reflexión, etc.
 
 ## 3. Programación Funcional
 Aprenderemos a manejar un nuevo paradigma, donde la función es un tipo de dato más. Conoceremos las funciones de orden superior, lambdas, funciones de extensión, sobrecarga de operadores, labdas con receptor o las scope functions entre otras cosas.
+
+## 4. Ficheros
+En este apartado veremos como trabajar con ficheros en Kotlin. Conoceremos como leer y escribir ficheros de texto y binarios.
 
 ## Documentación
 
