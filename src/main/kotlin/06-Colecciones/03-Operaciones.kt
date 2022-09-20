@@ -4,7 +4,7 @@ import kotlin.math.pow
 import kotlin.math.roundToInt
 
 // https://kotlinlang.org/docs/collection-operations.html
-val alumnado = listOf(
+private val alumnado = listOf(
     Alumno("Juan", 7.5, "DAM"),
     Alumno("Pedro", 8.5, "DAM"),
     Alumno("Ana", 9.5, "DAW"),

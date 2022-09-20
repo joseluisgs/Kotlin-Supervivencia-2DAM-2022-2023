@@ -13,6 +13,7 @@ Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
   - [3. Programación Funcional](#3-programación-funcional)
   - [4. Ficheros](#4-ficheros)
   - [5. Genéricos](#5-genéricos)
+  - [6. Colecciones](#6-colecciones)
   - [Documentación](#documentación)
   - [DAMnificad@s](#damnificads)
   - [Autor](#autor)
@@ -44,6 +45,9 @@ binarios. También veremos como trabajar con ficheros de propiedades, CSV, JSON 
 
 ## 5. Genéricos
 En este punto, veremos como trabajar con genéricos en Kotlin. Conoceremos como crear clases genéricas, funciones genéricas y el manejo de la varianza.
+
+## 6. Colecciones
+En este punto, veremos como trabajar con colecciones en Kotlin. Conoceremos como crear listas, conjuntos, mapas y sus variantes mutables e inmutables. Tambien veremos como trabajar con secuencias y Data Frames.
 
 ## Documentación
 
