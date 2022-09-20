@@ -23,9 +23,9 @@ fun main(args: Array<String>) {
         it.forEach { file ->
             println(
                 "${file.name} / ${file.length()} bytes / ${file.extension} / " +
-                        "${if (file.canRead()) "r" else "-"} " +
-                        "${if (file.canWrite()) "w" else "-"} " +
-                        "${if (file.canExecute()) "x" else "-"} " +
+                        (if (file.canRead()) "r" else "-") +
+                        (if (file.canWrite()) "w" else "-") +
+                        (if (file.canExecute()) "x" else "-") +
                         "${if (file.isDirectory) "d" else "-"} / " +
                         Path(file.absolutePath).getAttribute("unix:permissions") + " / " +
                         Path(file.absolutePath).getOwner() + " / " +
