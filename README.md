@@ -52,6 +52,7 @@ En este punto, veremos como trabajar con colecciones en Kotlin. Conoceremos como
 ## 7. Concurrencia
 Trataremos temas de procesos, hilos, corrutinas, asincronía y concurrencia en Kotlin.
 
+
 ## Documentación
 
 - [Documentación de Kotlin](https://kotlinlang.org/docs/home.html)
