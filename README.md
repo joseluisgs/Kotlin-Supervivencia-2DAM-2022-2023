@@ -47,7 +47,7 @@ binarios. También veremos como trabajar con ficheros de propiedades, CSV, JSON 
 En este punto, veremos como trabajar con genéricos en Kotlin. Conoceremos como crear clases genéricas, funciones genéricas y el manejo de la varianza.
 
 ## 6. Colecciones
-En este punto, veremos como trabajar con colecciones en Kotlin. Conoceremos como crear listas, conjuntos, mapas y sus variantes mutables e inmutables. Tambien veremos como trabajar con secuencias y Data Frames.
+En este punto, veremos como trabajar con colecciones en Kotlin. Conoceremos como crear listas, conjuntos, mapas y sus variantes mutables e inmutables. También veremos como trabajar con secuencias y Data Frames.
 
 ## 7. Concurrencia
 Trataremos temas de procesos, hilos, corrutinas, asincronía y concurrencia en Kotlin.
