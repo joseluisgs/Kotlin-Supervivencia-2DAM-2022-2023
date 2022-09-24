@@ -7,6 +7,8 @@ package `03-ProgFuncional`
  * Las funciones locales, son funciones que se definen dentro de otra función
  * Pueden acceder al estado de la función que la contiene
  * https://kotlinlang.org/docs/functions.html#local-functions
+ * 
+ * Las funciones locales tambien pueden ser infijas
  */
 
 infix fun Int.pow(n : Int): Int{
