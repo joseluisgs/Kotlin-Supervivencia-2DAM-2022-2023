@@ -22,6 +22,7 @@ class Persona(val nombre: String, val edad: Int) {
 fun pruebaLocal(numero: Int) {
     val constante = 30
 
+    // si tuviesemos que repetir esto mucha veces podemos hacer una función local
     fun suma(otro: Int): Int {
         return otro + constante
     }
