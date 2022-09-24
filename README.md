@@ -35,8 +35,7 @@ como la delegación, enums, sealed, o reflexión, etc.
 ## 3. Programación Funcional
 
 Aprenderemos a manejar un nuevo paradigma, donde la función es un tipo de dato más. Conoceremos las funciones de orden
-superior, lambdas, funciones de extensión, sobrecarga de operadores, labdas con receptor o las scope functions entre
-otras cosas.
+superior, lambdas, funciones de extensión, sobrecarga de operadores, lambdas con receptor o las scope functions entre otras cosas.
 
 ## 4. Ficheros
 
