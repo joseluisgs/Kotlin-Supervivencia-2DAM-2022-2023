@@ -8,7 +8,7 @@ package `05-Genericos`
 // imaginemos
 // Se pierde imformación en tiempo de ejecución
 // no podríamos saber o fiñtar por el tipo
-// fun <T> Iterable<*>.filterIsInstance() = filter { it is T } // ERROR!!!
+//fun <T> Iterable<*>.filterIsInstance() = filter { it is T } // ERROR!!!
 
 // Refied para conservar la información de tipo genérico en tiempo de ejecución
 inline fun <reified T> Iterable<*>.filterIsInstance() = filter { it is T }

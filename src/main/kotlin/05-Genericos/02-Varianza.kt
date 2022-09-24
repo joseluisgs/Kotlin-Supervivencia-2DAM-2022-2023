@@ -83,8 +83,8 @@ class EncrypterCovariante<out T>(val item: T)
 // Contravariante: Nosotros aseguramos que solo vamos a producir con el generico
 // usamos in
 class EncrypterContravariante<in T>() {
-    fun encrypt(item: T): String {
-        return item.toString()
+    fun <T> encrypt(): T {
+        return 3 as T
     }
 }
 

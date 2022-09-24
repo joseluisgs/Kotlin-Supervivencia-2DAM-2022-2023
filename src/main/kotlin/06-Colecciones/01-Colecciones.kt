@@ -13,7 +13,11 @@ fun main() {
     println(lista.get(0)) // podemos usar getters o []
     println(lista[0])
     println(lista.size)
-    //var listaWithNulls: List<Int?>? = null // listOf(1, 2, null, 4, 5)
+    //lista.add(1) // Error, no podemos añadir elementos a una lista read-only
+    //lista[0] = 10 // Error, no podemos modificar elementos de una lista read-only
+    // var listaPrueba = lista as MutableList<Int>
+    // listaPrueba[0] = 10 // Y modificarlos
+    // println(lista)
 
 
     val lista2 = mutableListOf<Int>(1, 2, 3, 4, 5)
