@@ -7,7 +7,16 @@ package `02-ProgOrientadaObjetos`
  *
  * Sealed: Sealed classes permiten que una clase tenga subclases, pero que estas
  * no puedan ser definidas fuera de la clase padre.
+ * Es una mezcla de Enums con clases
  * https://kotlinlang.org/docs/sealed-classes.html
+ * 
+ * Tambien tenemos las sealed interfaces, que son interfaces que pueden tener
+ * implementaciones, pero que estas no pueden ser definidas fuera de la interfaz
+ * https://jorgecastillo.dev/sealed-interfaces-kotlin
+ * 
+ * Siempre que se pueda usar una sealed interface porque nos permite la composición
+ * La herencia es solo simple
+ * Si necesitas un estado sealed class
  */
 enum class DiasSemana {
     LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO
@@ -18,13 +27,18 @@ enum class DiasSemana2(val numero: Int) {
 }
 
 sealed class MiError
+sealed interface Logger
 class ErrorBaseDatos(val database: String) : MiError()
 class ErrorFichero(val fichero: String) : MiError()
-class ErrorApiRest(val url: String) : MiError()
+class ErrorApiRest(val url: String) : MiError(), Logger
 
 fun log(e: MiError) = when (e) {
     is ErrorBaseDatos -> println("Error en la base de datos ${e.database}")
     is ErrorFichero -> println("Error en el fichero ${e.fichero}")
+    is ErrorApiRest -> println("Error en la API REST ${e.url}")
+}
+
+fun test(e: Logger) = when (e) {
     is ErrorApiRest -> println("Error en la API REST ${e.url}")
 }
 
