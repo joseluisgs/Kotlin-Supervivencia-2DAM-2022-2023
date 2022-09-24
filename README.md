@@ -14,6 +14,7 @@ Ejemplos de la supervivencia en Kotlin para 2º DAM. Curso 2022/2023.
   - [4. Ficheros](#4-ficheros)
   - [5. Genéricos](#5-genéricos)
   - [6. Colecciones](#6-colecciones)
+  - [7. Concurrencia](#7-concurrencia)
   - [Documentación](#documentación)
   - [DAMnificad@s](#damnificads)
   - [Autor](#autor)
@@ -47,6 +48,9 @@ En este punto, veremos como trabajar con genéricos en Kotlin. Conoceremos como 
 
 ## 6. Colecciones
 En este punto, veremos como trabajar con colecciones en Kotlin. Conoceremos como crear listas, conjuntos, mapas y sus variantes mutables e inmutables. Tambien veremos como trabajar con secuencias y Data Frames.
+
+## 7. Concurrencia
+Trataremos temas de procesos, hilos, corrutinas, asincronía y concurrencia en Kotlin.
 
 ## Documentación
 
