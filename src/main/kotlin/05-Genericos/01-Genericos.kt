@@ -9,6 +9,7 @@ package `05-Genericos`
  * Por defecto un generico T incluye al nulo, por lo que si no queremos que sea nulo
  * debemos especificar que no lo es con su extensión
  * Esta idea la podemos aplicar a cualquier tipo de datopara acotar el genérico
+ * Tambien podemos acotar genericos si implementan una interfaz
  */
 
  // Aqui P es nulable
@@ -17,6 +18,8 @@ data class Producto<P>(val nombre: String, val precio: P)
 data class Producto2<P : Any>(val nombre: String, val precio: P)
 // Aqui es de cualquier cosa que extienda de Number
 data class Producto3<P : Number>(val nombre: String, val precio: P)
+// Aqui deben implementar la interfaz Comparable
+data class Producto4<P : Comparable<P>>(val nombre: String, val precio: P)
 
 open class Persona(val nombre: String, val edad: Int) {
     override fun toString(): String {
