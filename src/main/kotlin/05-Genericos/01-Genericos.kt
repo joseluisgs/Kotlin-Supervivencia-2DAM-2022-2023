@@ -6,9 +6,18 @@ package `05-Genericos`
  * que permite trabajar con diferentes tipos de datos sin cambiar su descripción
  * https://kotlinlang.org/docs/generics.html
  * https://www.baeldung.com/kotlin/generics
+ * Por defecto un generico T incluye al nulo, por lo que si no queremos que sea nulo
+ * debemos especificar que no lo es con su extensión
+ * Esta idea la podemos aplicar a cualquier tipo de datopara acotar el genérico
  */
 
+ // Aqui P es nulable
 data class Producto<P>(val nombre: String, val precio: P)
+// Aqui P no es nulable
+data class Producto2<P : Any>(val nombre: String, val precio: P)
+// Aqui es de cualquier cosa que extienda de Number
+data class Producto3<P : Number>(val nombre: String, val precio: P)
+
 open class Persona(val nombre: String, val edad: Int) {
     override fun toString(): String {
         return "Persona(nombre='$nombre', edad=$edad)"
