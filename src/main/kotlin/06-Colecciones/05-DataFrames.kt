@@ -3,13 +3,19 @@ package `06-Colecciones`
 import models.Alumnado
 import models.curso
 import models.nota
+import org.jetbrains.kotlinx.dataframe.DataFrame
 import org.jetbrains.kotlinx.dataframe.api.*
+import org.jetbrains.kotlinx.dataframe.io.readCSV
+import org.jetbrains.kotlinx.dataframe.io.readJson
+import org.jetbrains.kotlinx.dataframe.io.writeCSV
+import org.jetbrains.kotlinx.dataframe.io.writeJson
 
 /**
  * Son colecciones masivas de elementos estructurados
  * usadas para procesar grandes cantidades de datos
  * y realizar analysis de datos
  * https://kotlin.github.io/dataframe/overview.html
+ * https://blog.jetbrains.com/kotlin/2022/06/kotlin-dataframe-library-preview/
  */
 
 // Podemos usar anotaciones para Data Frames, no es obligatorio si solo usamos colecciones
@@ -54,7 +60,7 @@ fun main() {
     // Estadisticas por curso
     df.groupBy("curso")
         .aggregate {
-            count() to "Total"
+            count() into "Total"
             mean(it.nota) into "Media"
             min(it.nota) into "Min"
             max(it.nota) into "Max"
@@ -80,5 +86,20 @@ fun main() {
     df.filter { it.curso == "DAM" && it.nota == notaMaxDam }.print()
     // Alumno con nota máxima en DAW
     df.filter { it.curso == "DAW" && it.nota == notaMaxDaw }.print()
+
+    // Podemos salvarlos como CSV
+    df.writeCSV("./data/alumnado-sal.csv")
+    // Como JSON
+    df.writeJson("./data/alumnado-sal.json", prettyPrint = true)
+
+    // podemos leerlos de un CSV
+    val df2 = DataFrame.readCSV("./data/alumnado-sal.csv")
+    df2.cast<Alumnado>()
+    df2.print()
+
+    // podemos leerlos de un JSON
+    val df3 = DataFrame.readJson("./data/alumnado-sal.json")
+    df3.cast<Alumnado>()
+    df3.print()
 
 }

@@ -1,0 +1,25 @@
+[{
+  "nombre": "Juan",
+  "nota": 7.5,
+  "curso": "DAM"
+}, {
+  "nombre": "Pedro",
+  "nota": 9.75,
+  "curso": "DAM"
+}, {
+  "nombre": "Ana",
+  "nota": 9.5,
+  "curso": "DAW"
+}, {
+  "nombre": "María",
+  "nota": 8.5,
+  "curso": "DAM"
+}, {
+  "nombre": "José",
+  "nota": 7.5,
+  "curso": "DAW"
+}, {
+  "nombre": "Alicia",
+  "nota": 7.5,
+  "curso": "DAW"
+}]
