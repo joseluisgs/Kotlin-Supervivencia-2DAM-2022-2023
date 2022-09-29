@@ -1,4 +1,4 @@
-package `06-Colecciones`.models
+package models
 
 import org.jetbrains.kotlinx.dataframe.annotations.DataSchema
 

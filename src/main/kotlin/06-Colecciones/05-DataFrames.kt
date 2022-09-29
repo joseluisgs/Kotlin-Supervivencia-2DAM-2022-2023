@@ -1,6 +1,6 @@
 package `06-Colecciones`
 
-import `06-Colecciones`.models.Alumno
+import models.Alumno
 import models.curso
 import models.nota
 import org.jetbrains.kotlinx.dataframe.DataFrame

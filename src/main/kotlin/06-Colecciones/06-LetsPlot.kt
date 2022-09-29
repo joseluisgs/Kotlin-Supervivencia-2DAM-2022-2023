@@ -1,10 +1,10 @@
 package `06-Colecciones`
 
-import `06-Colecciones`.models.Alumno
 import jetbrains.datalore.base.values.Color
 import jetbrains.datalore.plot.PlotHtmlExport
 import jetbrains.datalore.plot.PlotHtmlHelper.scriptUrl
 import jetbrains.datalore.plot.PlotSvgExport
+import models.Alumno
 import models.nota
 import org.jetbrains.kotlinx.dataframe.api.*
 import org.jetbrains.letsPlot.Stat
