@@ -1,4 +1,4 @@
-package `07-Concurrencia`
+package `08-Concurrencia`
 
 /**
  * Un proceso es una unidad de ejecución que se ejecuta en un sistema operativo.

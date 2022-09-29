@@ -1,6 +1,6 @@
 package `06-Colecciones`
 
-import models.Alumnado
+import `06-Colecciones`.models.Alumno
 import models.curso
 import models.nota
 import org.jetbrains.kotlinx.dataframe.DataFrame
@@ -28,19 +28,19 @@ import org.jetbrains.kotlinx.dataframe.io.writeJson
     val curso: String
 )*/
 
-private val alumnadoList = listOf(
-    Alumnado("Juan", 7.5, "DAM"),
-    Alumnado("Pedro", 9.75, "DAM"),
-    Alumnado("Ana", 9.5, "DAW"),
-    Alumnado("María", 8.5, "DAM"),
-    Alumnado("José", 7.5, "DAW"),
-    Alumnado("Alicia", 7.5, "DAW")
+private val alumnoLists = listOf(
+    Alumno("Juan", 7.5, "DAM"),
+    Alumno("Pedro", 9.75, "DAM"),
+    Alumno("Ana", 9.5, "DAW"),
+    Alumno("María", 8.5, "DAM"),
+    Alumno("José", 7.5, "DAW"),
+    Alumno("Alicia", 7.5, "DAW")
 )
 
 fun main() {
-    val df = alumnadoList.toDataFrame()
+    val df = alumnoLists.toDataFrame()
     // Lo casteamos para tener tipificado todo respecto a la clase Alumnado
-    df.cast<Alumnado>()
+    df.cast<Alumno>()
     // Mostramos el esquema del Data Frame
     println(df.schema())
     // Las primeras 3 filas
@@ -94,12 +94,12 @@ fun main() {
 
     // podemos leerlos de un CSV
     val df2 = DataFrame.readCSV("./data/alumnado-sal.csv")
-    df2.cast<Alumnado>()
+    df2.cast<Alumno>()
     df2.print()
 
     // podemos leerlos de un JSON
     val df3 = DataFrame.readJson("./data/alumnado-sal.json")
-    df3.cast<Alumnado>()
+    df3.cast<Alumno>()
     df3.print()
 
 }

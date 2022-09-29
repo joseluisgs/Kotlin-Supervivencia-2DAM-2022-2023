@@ -4,6 +4,8 @@ plugins {
     kotlin("jvm") version "1.7.10"
     // Para generar modelos de DataFrames
     id("org.jetbrains.kotlinx.dataframe") version "0.8.1"
+    // para serializar Json y otros
+    kotlin("plugin.serialization") version "1.7.10"
     application
 }
 
@@ -26,6 +28,8 @@ dependencies {
     // LetsPlot
     implementation("org.jetbrains.lets-plot:lets-plot-kotlin:4.0.0")
     implementation("org.jetbrains.lets-plot:lets-plot-image-export:2.4.0")
+    // Serializa Json
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0")
 }
 
 tasks.test {

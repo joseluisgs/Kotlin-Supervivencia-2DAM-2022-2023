@@ -1,10 +1,10 @@
 package `06-Colecciones`
 
+import `06-Colecciones`.models.Alumno
 import jetbrains.datalore.base.values.Color
 import jetbrains.datalore.plot.PlotHtmlExport
 import jetbrains.datalore.plot.PlotHtmlHelper.scriptUrl
 import jetbrains.datalore.plot.PlotSvgExport
-import models.Alumnado
 import models.nota
 import org.jetbrains.kotlinx.dataframe.api.*
 import org.jetbrains.letsPlot.Stat
@@ -41,24 +41,24 @@ fun Plot.exportToHtml() =
 // Para salvar en SVG
 fun Plot.exportToSvg() = PlotSvgExport.buildSvgImageFromRawSpecs(this.toSpec())
 
-private val alumnadoList = listOf(
-    Alumnado("Juan", 7.5, "DAM"),
-    Alumnado("Pedro", 9.75, "DAM"),
-    Alumnado("Ana", 9.5, "DAW"),
-    Alumnado("María", 8.5, "DAM"),
-    Alumnado("José", 6.5, "DAW"),
-    Alumnado("Alicia", 7.5, "DAW"),
-    Alumnado("Eva", 8.5, "DAM"),
-    Alumnado("Patricia", 7.5, "DAW"),
-    Alumnado("Raúl", 7.75, "DAM"),
-    Alumnado("Alejandro", 7.5, "DAM"),
-    Alumnado("Sandra", 7.5, "DAW"),
-    Alumnado("Luis", 8.5, "DAW"),
+private val alumnoLists = listOf(
+    Alumno("Juan", 7.5, "DAM"),
+    Alumno("Pedro", 9.75, "DAM"),
+    Alumno("Ana", 9.5, "DAW"),
+    Alumno("María", 8.5, "DAM"),
+    Alumno("José", 6.5, "DAW"),
+    Alumno("Alicia", 7.5, "DAW"),
+    Alumno("Eva", 8.5, "DAM"),
+    Alumno("Patricia", 7.5, "DAW"),
+    Alumno("Raúl", 7.75, "DAM"),
+    Alumno("Alejandro", 7.5, "DAM"),
+    Alumno("Sandra", 7.5, "DAW"),
+    Alumno("Luis", 8.5, "DAW"),
 )
 
 fun main() {
 
-    val df = alumnadoList.toDataFrame()
+    val df = alumnoLists.toDataFrame()
 
     // Media de DAM y DAW // Puedes hacerlo con un agregado
     val estadisticas = df.groupBy("curso")
