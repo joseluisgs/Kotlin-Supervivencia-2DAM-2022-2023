@@ -28,8 +28,16 @@ dependencies {
     // LetsPlot
     implementation("org.jetbrains.lets-plot:lets-plot-kotlin:4.0.0")
     implementation("org.jetbrains.lets-plot:lets-plot-image-export:2.4.0")
+    // Serializadores de Kotlin
+    // https://github.com/Kotlin/kotlinx.serialization/blob/master/formats/README.md
     // Serializa Json
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0")
+    // Serializa a XML con Serialization  para jvm
+    // https://github.com/pdvrieze/xmlutil
+    implementation("io.github.pdvrieze.xmlutil:core-jvm:0.84.3")
+    implementation("io.github.pdvrieze.xmlutil:serialization-jvm:0.84.3")
+    // simple xml
+    implementation("org.simpleframework:simple-xml:2.7.1")
 }
 
 tasks.test {

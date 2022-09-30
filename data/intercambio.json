@@ -1,14 +1,15 @@
 [
     {
         "nombre": "Bobby",
-        "edad": 2
+        "longevidad": 2
     },
     {
         "nombre": "Tara",
-        "edad": 3
+        "longevidad": 3
     },
     {
         "nombre": "Salchi",
-        "edad": 4
+        "longevidad": 4,
+        "dueño": "Pepe"
     }
 ]
