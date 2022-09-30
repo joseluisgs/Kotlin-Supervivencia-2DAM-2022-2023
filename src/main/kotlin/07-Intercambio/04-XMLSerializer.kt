@@ -2,6 +2,7 @@ package `07-Intercambio`
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import kotlinx.serialization.encodeToString
 import nl.adaptivity.xmlutil.serialization.XML
 import nl.adaptivity.xmlutil.serialization.XmlElement
 import java.io.File
@@ -37,10 +38,10 @@ fun main() {
         ),
         colors = listOf("red", "blue")
     )
-    val xml = XML.encodeToString(t)
+    val xml = XML { indentString = "  " }
     val fichero = File(System.getProperty("user.dir") + File.separator + "data" + File.separator + "intercambio.xml")
     // println("XML salida:\n${encodedString.prependIndent("    ")}\n")
-    fichero.writeText(XML.encodeToString(t))
+    fichero.writeText(xml.encodeToString(t))
 
     // Leemos
     val t2 = XML.decodeFromString<Team>(fichero.readText())

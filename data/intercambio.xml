@@ -1,1 +1,13 @@
-	<equipo id="9548e20f-6ec3-474c-b91a-da31c0d681e6"><personas id="2cdc9f28-436e-4ae9-aad5-59dc86d06db4"><name>Joe</name><age>15</age></personas><personas id="3c1245fd-ead0-45a7-91dc-4b36d0b833a2"><name>Jane</name><age>15</age><email>pepe@pepe.com</email></personas><colors>red</colors><colors>blue</colors></equipo>
+<equipo id="48dcfabc-28d7-4ec0-a508-189783c4cf05">
+  <personas id="d6f03bbb-0606-4536-a605-a5931a6d07ed">
+    <name>Joe</name>
+    <age>15</age>
+  </personas>
+  <personas id="0b3f0587-e49f-4921-9c7e-342a4a4b047b">
+    <name>Jane</name>
+    <age>15</age>
+    <email>pepe@pepe.com</email>
+  </personas>
+  <colors>red</colors>
+  <colors>blue</colors>
+</equipo>
