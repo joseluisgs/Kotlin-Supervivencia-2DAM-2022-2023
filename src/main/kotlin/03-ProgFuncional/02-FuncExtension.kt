@@ -7,6 +7,15 @@ import kotlin.math.roundToInt
  * Funciones de extension
  * Nos permiten extender las funcionalidades de una clase sin usar la herencia
  * https://kotlinlang.org/docs/extensions.html#extension-functions
+ *
+ * Además, podemos crear extension fuction para los companion objects
+ * Esto es interesante para fabricar métodos estáticos
+ * https://kotlinlang.org/docs/extensions.html#companion-object-extensions
+ *
+ * O crearle nuevas propiedades, extension properties
+ * https://kotlinlang.org/docs/extensions.html#extension-properties
+ *
+ * Todo esto es interesante para extender las funcionalidades de las clases o data clases
  */
 
 fun Int.isEven() = this % 2 == 0
@@ -57,6 +66,17 @@ fun Collection<Number>.miMax(): Number {
     return maximo
 }
 
+data class Person(val nombre: String, val edad: Int) {
+    companion object
+}
+
+// Método, de esta manera podemos crear métodos estáticos cuando queramos
+fun Person.Companion.create(nombre: String, edad: Int) = Person(nombre, edad)
+
+// Propiedad
+val Person.Companion.canVote: Int
+    get() = 120
+
 
 fun main(args: Array<String>) {
     val num = 10
@@ -86,5 +106,7 @@ fun main(args: Array<String>) {
     println(palabras.miFilter { word -> word.length > 6 })
     println(palabras.miFilter { it -> it.length > 6 })
     println(palabras.miFilter { it.length > 6 })
+
+    val p1 = Person.create("Juan", 20)
 
 }
