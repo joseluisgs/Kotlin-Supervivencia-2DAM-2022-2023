@@ -19,7 +19,8 @@ package `02-ProgOrientadaObjetos`
 // import kotlin.collections.List as KotlinList
 
 
-typealias MyInt = Int
+// Pueden ser públicos o privados
+private typealias MyInt = Int
 typealias Matrix = Array<IntArray>
 typealias Columna = IntArray
 typealias NoRepetidos = Set<Int>

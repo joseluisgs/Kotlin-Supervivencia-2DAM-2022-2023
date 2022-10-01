@@ -15,9 +15,18 @@ package `03-ProgFuncional`
  * Hay que buscar el equilibrio entre el tamaño del código y el tiempo de ejecución
  * No siempre interesa
  *
+ * noinline: para que no se haga inline una función lambda o función de orden superior eligiendo
+ * la que queremos que no se haga inline o no
+ *
+ * crossinline: para que no se haga inline una función lambda aunque se llame desde una inline
+ * Con ello evitamos que se puedan hacer retunes, pues recuerda que el inline pega el código
+ * https://www.baeldung.com/kotlin/crossinline-vs-noinline
+ *
+ *
  * Kotlin y Java borran la información de tipo genérico en el momento de la compilación o sea
  * todos los posibles formas de genércos se manfiestan como raw raw en tiempo de ejecución
  * Es decir List<Int> y  List<String> son solo List en tiempo de ejecución
+ *
  *
  * Con refied podemos acceder a la información de tipo genérico en tiempo de ejecución
  */

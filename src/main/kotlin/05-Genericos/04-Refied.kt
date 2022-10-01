@@ -11,6 +11,7 @@ package `05-Genericos`
 //fun <T> Iterable<*>.filterIsInstance() = filter { it is T } // ERROR!!!
 
 // Refied para conservar la información de tipo genérico en tiempo de ejecución
+// ayudandonos de la palabra reservada reified e inline
 inline fun <reified T> Iterable<*>.filterIsInstance() = filter { it is T }
 
 fun main() {
