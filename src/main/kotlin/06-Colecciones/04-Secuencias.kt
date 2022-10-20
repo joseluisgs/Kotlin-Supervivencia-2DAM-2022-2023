@@ -9,6 +9,9 @@ package `06-Colecciones`
  *  Adecuado para listas más pequeñas, no para las más grandes, ya que el procesamiento de la funcion de
  *  recopilación intermedia se vuelve costoso.
  *
+ * Una secuencia se puede considerar como una colección de datos que se evalúa de forma perezosa
+ * y que puede tener infinitos elementos.
+ * https://kotlinlang.org/docs/sequences.html
  *
  * Secuencias son Lazy: Gastan más memoria pueden realizar menos pasadas
  * según la necesidad, según la operación de la terminal.
@@ -68,4 +71,33 @@ fun main() {
     // terminal operation: obtaining the result as a List
     println(lengthsSequence.toList())
     // 18 operaciones
+
+
+    // secuencia de numeros primos
+    val numbers = generateSequence(2) { it + 1 }
+    val primes = numbers.filter { number ->
+        numbers.takeWhile { it <= number / 2 }.all { number % it != 0 }
+    }
+    println(primes.take(10).toList())
+    // yield
+    // Da un valor al iterador que se está construyendo y se suspende hasta que se solicita el siguiente valor.
+    // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/-sequence-scope/yield.html
+    val primos = sequence {
+        yield(1)
+        yieldAll(listOf(3, 5))
+        yieldAll(generateSequence(7) { it + 2 })
+    }
+    println(primos.take(5).toList())
+
+    fun fibonacci() = sequence {
+        var terms = Pair(0, 1)
+
+        // this sequence is infinite
+        while (true) {
+            yield(terms.first)
+            terms = Pair(terms.second, terms.first + terms.second)
+        }
+    }
+
+    println(fibonacci().take(10).toList()) // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 }
