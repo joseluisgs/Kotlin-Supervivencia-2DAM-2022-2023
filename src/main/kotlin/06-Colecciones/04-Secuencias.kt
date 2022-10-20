@@ -87,7 +87,7 @@ fun main() {
         yieldAll(listOf(3, 5))
         yieldAll(generateSequence(7) { it + 2 })
     }
-    println(primos.take(5).toList())
+    println(primos.take(10).toList())
 
     fun fibonacci() = sequence {
         var terms = Pair(0, 1)
