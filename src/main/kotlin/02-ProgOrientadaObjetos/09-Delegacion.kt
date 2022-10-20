@@ -30,6 +30,10 @@ class Delegate {
         println("Se cambio el valor de la propiedad de $old a $new")
         new in 1..10
     }
+
+    // Not null
+    var notNull by Delegates.notNull<String>()
+
 }
 
 fun main() {
@@ -46,5 +50,8 @@ fun main() {
     println(delegate.vetoableValue)
     delegate.vetoableValue = 15
     println(delegate.vetoableValue)
+
+    delegate.notNull = "Hola"
+    println(delegate.notNull)
 
 }
