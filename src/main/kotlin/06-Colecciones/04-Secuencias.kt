@@ -82,12 +82,12 @@ fun main() {
     // yield
     // Da un valor al iterador que se está construyendo y se suspende hasta que se solicita el siguiente valor.
     // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/-sequence-scope/yield.html
-    val primos = sequence {
+    val impares = sequence {
         yield(1)
         yieldAll(listOf(3, 5))
         yieldAll(generateSequence(7) { it + 2 })
     }
-    println(primos.take(10).toList())
+    println(impares.take(10).toList())
 
     fun fibonacci() = sequence {
         var terms = Pair(0, 1)
